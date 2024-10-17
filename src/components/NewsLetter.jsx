@@ -99,7 +99,7 @@ function Newsletter() {
               {/* Change the button's layout based on screen size */}
               <button
                 type="submit"
-                className="bg-white text-black opacity-90 hover:opacity-100 p-2 rounded-lg shadow-md shadow-blue-600 transition-all  mt-4 sm:mt-0 hover:shadow-md hover:shadow-green-600 w-full mb-4"
+                className="bg-white text-black opacity-95 hover:opacity-100 p-2 rounded-lg shadow-lg shadow-blue-600 hover:shadow-lg hover:shadow-green-600 transition-all delay-130 ease-in hover:translate-y-1 w-full mb-4"
               >
                 Subscribe
               </button>
