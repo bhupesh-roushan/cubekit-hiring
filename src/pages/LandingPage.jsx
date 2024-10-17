@@ -20,12 +20,12 @@ import {
   AccordionTrigger,
 } from "../components/ui/accordion";
 import { Link } from "react-router-dom";
-import { useUser } from "@clerk/clerk-react"; // Import useUser to check user role
+import { useUser } from "@clerk/clerk-react";
 
 const LandingPage = () => {
-  const { user, isSignedIn } = useUser(); // Get user data and signed-in status from Clerk
-  const userRole = user?.unsafeMetadata?.role; // Access the user's role
-  
+  const { user, isSignedIn } = useUser();
+  const userRole = user?.unsafeMetadata?.role;
+
   return (
     <main className="flex flex-col gap-10 sm:gap-20 py-10 sm:py-20">
       <section className="text-center ">
@@ -50,11 +50,11 @@ const LandingPage = () => {
           </Button>
         </Link>
         {/* Show "Post a Job" if the user is a recruiter or not signed in */}
-        {(!isSignedIn || userRole === 'recruiter') && (
+        {(!isSignedIn || userRole === 'recruiter' || userRole === undefined) && (
           <Link to={"/post-job"}>
             <Button variant="blue"
               size="lg"
-              className="w-full sm:w-auto p-2 text-xs sm:p-8 sm:pl-16 sm:pr-16 sm:text-xl transition ease-in-out delay-120 bg-blue-500   hover:-translate-y-1 hover:scale-105 hover:bg-white hover:text-black duration-300 shadow-lg hover:shadow-blue-600">
+              className="w-full sm:w-auto p-2 text-xs sm:p-8 sm:pl-16 sm:pr-16 sm:text-xl transition ease-in-out delay-120 bg-blue-500 hover:-translate-y-1 hover:scale-105 hover:bg-white hover:text-black duration-300 shadow-lg hover:shadow-blue-600">
               Post a Job
             </Button>
           </Link>
@@ -90,7 +90,7 @@ const LandingPage = () => {
             <CardTitle className="font-bold">For Job Seekers</CardTitle>
           </CardHeader>
           <CardContent>
-            Search and apply for jobs, track applications, and more.
+            Search and Apply for Jobs, Track Applications, and More.
           </CardContent>
         </Card>
         <Card className="transition-all delay-120 opacity-85 hover:opacity-100 shadow-md shadow-blue-600">
@@ -98,7 +98,7 @@ const LandingPage = () => {
             <CardTitle className="font-bold">For Employers</CardTitle>
           </CardHeader>
           <CardContent>
-            Post jobs, manage applications, and find the best candidates.
+            Post Jobs, Manage Applications, and Find the Best Candidates.
           </CardContent>
         </Card>
       </section>
