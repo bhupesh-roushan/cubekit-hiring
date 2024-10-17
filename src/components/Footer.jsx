@@ -4,6 +4,7 @@ import { CgMail } from "react-icons/cg";
 import Newsletter from "../components/NewsLetter";
 import { useUser } from "@clerk/clerk-react";
 
+
 function Footer() {
   const { user } = useUser();
   const userRole = user?.unsafeMetadata?.role; // Get the user role
@@ -31,7 +32,10 @@ function Footer() {
             {userRole === "recruiter" && ( // Show both options for recruiters
               <>
                 <li>
-                  <a href="/post-job" className="text-gray-400 hover:text-white">
+                  <a
+                    href="/post-job"
+                    className="text-gray-400 hover:text-white"
+                  >
                     Post Job
                   </a>
                 </li>
@@ -65,8 +69,10 @@ function Footer() {
         </div>
 
         {/* Newsletter */}
-        <div className="flex flex-col gap-2 items-center">
-          <h3 className="text-2xl font-bold mb-4 text-center">Stay Connected</h3>
+        <div className="flex flex-col gap-2 items-center ">
+          <h3 className="text-2xl font-bold mb-4 text-center">
+            Stay Connected
+          </h3>
           <Newsletter />
           <div className="flex space-x-4 gap-5 mt-4">
             <a
