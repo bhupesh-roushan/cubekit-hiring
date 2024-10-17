@@ -126,8 +126,8 @@ function Newsletter() {
             Sign in to Subscribe to the Newsletter 💌
           </p>
           <SignInButton mode="modal">
-            <button className="bg-background text-white p-2 rounded-md shadow-md shadow-blue-700 transition-all hover:translate-y-1 mb-2">
-              Sign In / Sign Up
+            <button className="bg-background text-white p-2 rounded-md shadow-md shadow-blue-700 hover:shadow-lg hover:shadow-blue-700 transition-all delay-130 ease-in hover:translate-y-1 mb-2">
+              Login / Sign Up
             </button>
           </SignInButton>
         </div>
