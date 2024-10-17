@@ -1,0 +1,111 @@
+[
+  {
+    "name": "atlassian",
+    "path": "/companies/atlassian.svg",
+    "id": 1
+  },
+  {
+    "name": "aws",
+    "path": "/companies/aws.png",
+    "id": 2
+  },
+  {
+    "name": "cloudera",
+    "path": "/companies/cloudera.png",
+    "id": 3
+  },
+
+  {
+    "name": "amazon",
+    "path": "/companies/amazon.svg",
+    "id": 4
+  },
+  {
+    "name": "apple",
+    "path": "/companies/apple.png",
+    "id": 5
+  },
+  {
+    "name": "tally",
+    "path": "/companies/tally.png",
+    "id": 6
+  },
+  {
+    "name": "google",
+    "path": "/companies/google.webp",
+    "id": 7
+  },
+  {
+    "name": "ibm",
+    "path": "/companies/ibm.svg",
+    "id": 8
+  },
+  {
+    "name": "euphoria",
+    "path": "/companies/euphoria.svg",
+    "id": 9
+  },
+  {
+    "name": "meta",
+    "path": "/companies/meta.svg",
+    "id": 10
+  },
+
+  {
+    "name": "stripe",
+    "path": "/companies/stripe.svg",
+    "id": 11
+  },
+
+  {
+    "name": "microsoft",
+    "path": "/companies/microsoft.webp",
+    "id": 12
+  },
+  {
+    "name": "galileo",
+    "path": "/companies/gailileo.svg",
+    "id": 13
+  },
+  {
+    "name": "netflix",
+    "path": "/companies/netflix.png",
+    "id": 14
+  },
+  {
+    "name": "uber",
+    "path": "/companies/uber.svg",
+    "id": 15
+  },
+  {
+    "name": "samsung",
+    "path": "/companies/samsung.png",
+    "id": 16
+  },
+  {
+    "name": "tcs",
+    "path": "/companies/tcs.png",
+    "id": 17
+  },
+  {
+    "name": "cubekit",
+    "path": "/companies/cubekit.svg",
+    "id": 18
+  },
+  {
+    "name": "cognizant",
+    "path": "/companies/cognizant.png",
+    "id": 19
+  },
+  {
+    "name": "leapyear",
+    "path": "/companies/leapyear.svg",
+    "id": 20
+  },
+  {
+    "name": "flipkart",
+    "path": "/companies/flipkart.png",
+    "id": 20
+  }
+
+]

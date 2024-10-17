@@ -1,0 +1,26 @@
+[
+  {
+    "question": "What exactly is CubeKit?",
+    "answer": "CubeKit is an application for job portals that enables companies to publish job listings and allows users to search for and apply to jobs. It offers functionalities for both job seekers and employers, featuring easy-to-use interfaces and secure authentication.."
+  },
+  {
+    "question": "How can I publish a job listing?",
+    "answer": "Employers can post a job by logging in and then going to the 'Post Job' section. They should fill in the job details and submit the form to create a new job listing."
+  },
+  {
+    "question": "Where can I find job opportunities?",
+    "answer": "The search bar on the homepage or the dedicated job search page allows job seekers to find jobs based on keywords, location, category, and other filters."
+  },
+  {
+    "question": "How can I go about applying for a job?",
+    "answer": "Click on the job listing and follow the provided application instructions when applying for a job. You might have to upload your resume and furnish additional information."
+  },
+  {
+    "question": "Is it possible for me to bookmark jobs so that I can apply to them later?",
+    "answer": "Certainly! You have the option to save job postings by selecting the 'Save Job' button on the job listing. Access your saved jobs from your profile within the 'Saved Jobs' section."
+  },
+  {
+    "question": "I need to know how to keep track of the job applications I've submitted?",
+    "answer": "In their profile, job seekers can monitor the progress of their applications from the 'Applications' section. Updates on the status of each application are available in this section."
+  }
+]
