@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub,FaGlobe } from "react-icons/fa";
 import { CgMail } from "react-icons/cg";
 import Newsletter from "../components/NewsLetter";
 import { useUser } from "@clerk/clerk-react";
@@ -93,6 +93,13 @@ function Footer() {
 
             <a href="mailto:roushan.bhupesh@gmail.com">
               <CgMail className="w-10 h-10 p-2 rounded-2xl shadow-green-500 shadow-md hover:shadow-blue-600 cursor-pointer transition-all ease-in delay-130 hover:translate-y-1" />
+            </a>
+            <a
+              href="https://www.bhupesh.website"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGlobe className="w-10 h-10 p-2 rounded-2xl shadow-green-500 shadow-md hover:shadow-blue-600 cursor-pointer transition-all ease-in delay-130 hover:translate-y-1" />
             </a>
           </div>
         </div>
